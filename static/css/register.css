@@ -1,0 +1,90 @@
+body{
+    margin-top : 58px;
+    margin-left : 75vh;
+    margin-right : 75vh;
+}
+.status{
+    display : flex;
+   
+}
+.clock{
+    
+    width : 25vh;
+    height : 18px;
+    top: 6px;
+    left : 0.33px;
+    margin-left : 21px;
+    margin-right : 219px;
+    
+}
+.top-right{
+    align-items:center;
+    display: flex;
+   
+} 
+.top-right img{
+  
+    width : 18px;
+    height: 10px;
+    top : 2px;
+    left : 2px;
+    margin : 1px;
+}
+.undo{
+    margin-left : 16px;
+
+}
+.undo img{
+    width : 15px;
+    height : 15px;
+}
+.sign-up{
+    font-size : 45px;
+    margin-left : 105px;
+    margin-right : 105px;
+    color : #99E599;
+    Font:"Nats";
+    padding-bottom:0px;
+}
+.info{
+    margin-top : 20px;
+    margin-left : 36px;
+}
+.info-id{
+    font-size : 15px;
+    font : "Nats";
+}
+input{
+    margin-left : 36px;
+    width : 340px;
+    height : 50px;
+    border-bottom : solid 2px #99E599;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    
+}
+form p{
+    margin-left : 36px;
+    margin-bottom :0px;
+}
+hr{
+    margin-top:41px;
+    width : 340px;
+   
+    color : #99E599;
+    border : 0.5px solid;
+}
+.box{
+    align-items: center;
+    margin-top:25px;
+    margin-left : 88px;
+    margin-right : 88px;
+    width:250px;
+    height : 52px;
+    text-align : center;
+    background-color:#99E599;
+    color : white;
+    border-radius:6px;
+    padding-top: 20px;
+}
