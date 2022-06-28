@@ -1,0 +1,37 @@
+body{
+    margin-left : 80vh;
+    margin-right : 80vh;
+    margin-top : 2vh;
+    background-color : #333;
+}
+
+.page{
+    background-color : white;
+    height : 100vh;
+}
+.first-line{
+    display : flex;
+    
+}
+.undo{
+    margin-left : 16px;
+    flex-basis : 70%;
+
+}
+.undo img{
+    width:2vh;
+    height:2vh;
+    margin-top : 3vh;
+}
+.save-button{
+    margin-top : 3vh;
+    background-color : #99E599;
+    width : 10vh; 
+    border : none ;
+    border-radius : 1vh;
+}
+.second-line{
+    font-weight: bold;
+    font-size : 5vh;
+    margin-left : 3vh;
+}

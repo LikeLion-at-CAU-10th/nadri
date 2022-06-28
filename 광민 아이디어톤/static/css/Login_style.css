@@ -5,17 +5,37 @@ body{
     background-color: #333;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 14px;
-    margin-left: 580px;
-    margin-right: 580px;
+    margin-left: 80vh;
+    margin-right: 80vh;
 }
 .page{
     /* Login */
     position: relative;
-    width: 375px;
     height: 812px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     }
+
+/* 상단바 이미지 크기 */
+.top-box img{
+    width:9vh;
+    height:24px;
+    position: relative;
+    right: -10px;
+}
+
+/* 시계크기 */
+.time_box{
+    margin-right: 35vh;
+}
+   
+.clock span { color: black; }
+
+/* 시계텍스트크기 */
+.txt_lg { 
+    font-size: 12px;
+    font-weight:900;
+ }
 
 
 .wrapper{
@@ -24,7 +44,7 @@ body{
     flex-direction: row;
 }
 .middle-title{
-    width: 122px;
+    width: 10vh;
     height: 127px;
     left: 126px;
     top: 164px;
@@ -33,8 +53,8 @@ body{
     font-weight: 40;
     font-size: 30px;
     line-height: 127px;
+  
 /* identical to box height */
-
     display: flex;
     align-items: center;
     text-align: center;
@@ -43,21 +63,18 @@ body{
 }
 
 
-.middle-checkbox{
-    display: flex;
-    align-items: center;
-    justify-content: space-betweens;
-}
-
-}
 .middle-loginbox a{
     text-decoration: none;
     color: grey;
     margin: 0 10px;
 }
-.middle-loginbox p{
+
+.division-line a{
+    text-decoration: none;
     color: grey;
+    margin: 0 10px;
 }
+
 .middle-loginbox{
     display: flex;
     align-items: center;
@@ -71,69 +88,14 @@ body{
     color: white;
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 50vh;
     padding: 7px;
     border: none;
     border-radius: 5px;
     height: 60px;
     font-size: 20px;    
 }
-.division-line{
-    font-size:12px;
-    color: grey;
-    margin: 0 10px;
-    display: flex;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-.division-line p{
-    font-size: 14px;
-}
-.division-line hr{
-    width: 46%;
-    height:0.1px;
-    border-style: none;
-    background-color: grey;
-}
 
-
-
-.loginbox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width:100%;
-    padding:7px;
-    border-radius: 6px;
-    border: 2px;
-    height: 45px;
-    color: grey;
-    border-style:solid;
-    margin: 10px 0;
-}
-
-.loginbox img{
-    position: relative;
-    width: 25px;
-    height:25px;
-    flex-basis:10%;
-    display: flex;
-    justify-content: center;
-}
-
-.loginbox p{
-    display:flex;
-    justify-content: center;
-    font-size: 20px;
-    flex-basis: 90%;
-}
-
-.clock span { color: black; }
-.txt_lg { 
-    font-size: 12px;
-    font-weight:900;
- }
 
 .top{
     display: flex;
@@ -149,7 +111,7 @@ body{
     background: #99E599;
     border: 2px solid #99E599;
     border-radius: 6px;
-    width:343px;
+    width:43vh;
     height:52px;
 
 }
@@ -158,7 +120,7 @@ body{
     box-sizing: border-box;
     background: #FFFFFF;
     border: 2px solid #99E599;
-    width:343px;
+    width:43vh;
     height:52px;
     left: 0%;
     right: 0%;
@@ -181,23 +143,5 @@ body{
     justify-content: center;
     
 }
-
-.top-box p{
-    display:flex;
-    justify-content: center;
-    flex-direction: row;
-    font-size: 18px;
-}
-.top-box img{
-    width:80px;
-    height:24px;
-    position: relative;
-    right: -10px;
-}
-
-.time_box{
-    margin-right: 200px;
-}
-   
 
 
