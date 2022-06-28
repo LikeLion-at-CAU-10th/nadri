@@ -1,35 +1,10 @@
 body{
-    margin-top : 58px;
-    margin-left : 75vh;
-    margin-right : 75vh;
+    margin-top : 14px;
+    margin-left : 80vh;
+    margin-right : 80vh;
 }
-.status{
-    display : flex;
-   
-}
-.clock{
-    
-    width : 25vh;
-    height : 18px;
-    top: 6px;
-    left : 0.33px;
-    margin-left : 21px;
-    margin-right : 219px;
-    
-}
-.top-right{
-    align-items:center;
-    display: flex;
-   
-} 
-.top-right img{
-  
-    width : 18px;
-    height: 10px;
-    top : 2px;
-    left : 2px;
-    margin : 1px;
-}
+
+
 .undo{
     margin-left : 16px;
 
