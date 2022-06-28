@@ -2,8 +2,12 @@ body{
     margin-top : 14px;
     margin-left : 80vh;
     margin-right : 80vh;
+    background-color : #333;
 }
-
+.page{
+    background-color: white;
+    height : 90vh;
+}
 
 .undo{
     margin-left : 16px;
@@ -15,8 +19,8 @@ body{
 }
 .sign-up{
     font-size : 45px;
-    margin-left : 105px;
-    margin-right : 105px;
+    margin-left : 15vh;
+    margin-right : 15vh;
     color : #99E599;
     Font:"Nats";
     padding-bottom:0px;
@@ -51,12 +55,13 @@ hr{
     border : 0.5px solid;
 }
 .box{
-    align-items: center;
+    box-sizing : border-box;
+    
     margin-top:25px;
     margin-left : 88px;
     margin-right : 88px;
-    width:250px;
-    height : 52px;
+    width:35vh;
+    height : 60px;
     text-align : center;
     background-color:#99E599;
     color : white;
