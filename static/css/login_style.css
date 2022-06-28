@@ -5,13 +5,12 @@ body{
     background-color: #333;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 14px;
-    margin-left: 75vh;
-    margin-right: 75vh;
+    margin-left: 80vh;
+    margin-right: 80vh;
 }
 .page{
     /* Login */
     position: relative;
-    width: 46vh;
     height: 812px;
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -27,7 +26,7 @@ body{
 
 /* 시계크기 */
 .time_box{
-    margin-right: 22vh;
+    margin-right: 35vh;
 }
    
 .clock span { color: black; }
@@ -45,7 +44,7 @@ body{
     flex-direction: row;
 }
 .middle-title{
-    width: 30vh;
+    width: 10vh;
     height: 127px;
     left: 126px;
     top: 164px;
@@ -54,8 +53,8 @@ body{
     font-weight: 40;
     font-size: 30px;
     line-height: 127px;
+  
 /* identical to box height */
-
     display: flex;
     align-items: center;
     text-align: center;
@@ -63,6 +62,9 @@ body{
     justify-content: center;
 }
 
+.middle-title h2{
+    width: 12vh;
+}
 
 .middle-loginbox a{
     text-decoration: none;
@@ -89,7 +91,7 @@ body{
     color: white;
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 50vh;
     padding: 7px;
     border: none;
     border-radius: 5px;
@@ -112,7 +114,7 @@ body{
     background: #99E599;
     border: 2px solid #99E599;
     border-radius: 6px;
-    width:343px;
+    width:43vh;
     height:52px;
 
 }
@@ -121,7 +123,7 @@ body{
     box-sizing: border-box;
     background: #FFFFFF;
     border: 2px solid #99E599;
-    width:37vh;
+    width:43vh;
     height:52px;
     left: 0%;
     right: 0%;
