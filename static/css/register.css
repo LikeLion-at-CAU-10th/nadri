@@ -6,7 +6,7 @@ body{
 }
 .page{
     background-color: white;
-    height : 90vh;
+    height : 100vh;
 }
 
 .undo{
@@ -35,7 +35,7 @@ body{
 }
 input{
     margin-left : 36px;
-    width : 340px;
+    width : 300px;
     height : 50px;
     border-bottom : solid 2px #99E599;
     border-top: none;
@@ -58,8 +58,8 @@ hr{
     box-sizing : border-box;
     
     margin-top:25px;
-    margin-left : 88px;
-    margin-right : 88px;
+    margin-left : 60px;
+    margin-right : 60px;
     width:35vh;
     height : 60px;
     text-align : center;
