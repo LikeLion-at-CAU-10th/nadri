@@ -1,0 +1,43 @@
+body{
+    margin-left : 80vh;
+    margin-right : 80vh;
+    margin-top : 2vh;
+    background-color : #333;
+}
+
+.page{
+    background-color : white;
+    height : 100vh;
+}
+
+.text-field{
+    box-sizing: border-box;
+    background: white;
+    border: 2px solid whitesmoke;
+    width:43vh;
+    height:52px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    vertical-align: 26px;
+    background-image:url('../images/어디로.jpg');
+    background-repeat:no-repeat;
+    background-size: 360px ;
+    position: relative;
+}
+
+.map1{
+    position: absolute;
+}
+   
+.pin{
+    width:30vh;
+    height: 50vh;
+    background-image: url("../images/pin\ 1.svg");
+    background-repeat: no-repeat;
+}
+.clicked{
+    background-image: url("../images/pin\ 2.svg");
+    background-repeat: no-repeat;
+}
