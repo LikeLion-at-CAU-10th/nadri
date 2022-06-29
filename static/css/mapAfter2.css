@@ -40,11 +40,35 @@ body{
     display : flex;
     margin-left : 3vh;
     margin-top : 1vh;
-    margin-bottom: 2vh;
+    margin-bottom : 4vh;
 }
 .date{
-    flex-basis: 22%;
+    flex-basis: 30%;
 }
-.map{
+
+.fourth-line .map .map-img{
+    width : 52.5vh;
     height : 40vh;
+    z-index : 1;
+    position : absolute;
+
+}
+.fourth-line .map .pin1{
+    z-index : 2;
+    position: relative;
+    bottom : 1.5vh;
+    left : 9vh;
+
+}
+.fourth-line .map .pin2{
+    z-index : 2;
+    position: relative;
+    left : 40.6vh;
+    top : 3vh;
+}
+.fourth-line .map .pin3{
+    z-index : 2;
+    position: relative;
+    left : 23vh;
+    bottom : 3vh;
 }
