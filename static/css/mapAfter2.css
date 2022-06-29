@@ -35,3 +35,16 @@ body{
     font-size : 5vh;
     margin-left : 3vh;
 }
+
+.third-line{
+    display : flex;
+    margin-left : 3vh;
+    margin-top : 1vh;
+    margin-bottom: 2vh;
+}
+.date{
+    flex-basis: 22%;
+}
+.map{
+    height : 40vh;
+}
