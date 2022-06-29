@@ -72,3 +72,7 @@ body{
     left : 23vh;
     bottom : 3vh;
 }
+#canvas{
+    position : absolute;
+    z-index : 2;
+}
