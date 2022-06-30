@@ -1,7 +1,7 @@
 window.onload = function(){
     var canvas = document.getElementById("canvas");
     var context = canvas.getContext("2d");
-    context.strokeStyle = "skyblue"
+    context.strokeStyle = "skyblue";
     context.lineWidth = 8;
     context.beginPath();
 
@@ -10,4 +10,6 @@ window.onload = function(){
     context.moveTo(87,42);
     context.lineTo(220,200);
     context.stroke();
+
+    
 };
