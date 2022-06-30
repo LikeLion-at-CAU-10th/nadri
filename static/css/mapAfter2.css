@@ -36,6 +36,15 @@ body{
     margin-left : 3vh;
 }
 
+.online{
+    margin-left : 22vh;
+    display:flex;
+    
+}
+
+
+
+
 .third-line{
     display : flex;
     margin-left : 3vh;
@@ -45,6 +54,7 @@ body{
 .date{
     flex-basis: 30%;
 }
+
 
 .fourth-line .map .map-img{
     width : 52.5vh;
@@ -75,4 +85,49 @@ body{
 #canvas{
     position : absolute;
     z-index : 2;
+}
+
+.fifth-line{
+    margin-top : 5vh;
+    display : flex;
+}
+.blank{
+    border : solid black 1px;
+    display : flex;
+    margin-bottom : 4.5vh;
+    width : 40vh;
+    height : 6vh;
+    padding-top:1vh;
+    border-radius: 1vh;
+    padding-left : 1vh;
+}
+.total{
+    display:flex;
+    flex-basis : 87%;
+}
+.element1{
+    font-weight : bold;
+    font-size: 2vh;
+}
+.element2{
+    margin-left : 1vh;
+    padding-top: 0.5vh;
+    font-weight : 100;
+    font-size : 0.5vh;
+}
+
+.total-right{
+    display : flex;
+    padding-top : 1vh;
+}
+.element3{
+    padding-right : 1vh;
+}
+.bottom-box{
+    background-color: #99E599;
+    border : none;
+    border-radius : 1vh;
+    height : 5vh;
+    margin-left : 3.5vh;
+    width : 20vh;
 }
