@@ -10,38 +10,78 @@
 
 // btn.addEventListener('click',Click);
 
-let i = 0;
-
 let click = document.querySelector('.map');
-click.onclick = function(event){
-   var x = event.clientX;
-   var y = event.clientY;
-   const img = document.createElement('img');
-   
-   img.src = "../static/images/pin1.svg";
-   document.body.appendChild(img);
-   
-   img.style.bottom = String(1000-y)+"px";
+let i = 0;
+let j=0;
 
-   img.style.left = String(x-23)+"px";
-   img.style.position='absolute';
-   img.style.zIndex="3";
-   i = i + 1;
-   img.id = "a" + i;
-   console.log("a"+i);
-}
+for(j=1; j<7; j++){
+	if(j==1 && j==3 && j==5){
+		click.onclick = function(event){
+  		var x = event.clientX;
+   		var y = event.clientY;
+ 		const img = document.createElement('img');
+   
+   		img.src = "../static/images/오늘이 프로필.svg";
+   		img.src = "../static/images/내일이 프로필.svg";
 
-// if(i>=5){
-	let firstImage = document.getElementById("a1");
-	let secondImage = document.getElementById("a2");
-	firstImage.addEventListener("click", () => {
-		firstImage.remove();
-	});
-	secondImage.addEventListener("click", () => {
-		secondImage.remove();
-	});
-	console.log("삭제됐습니다");
+   		document.body.appendChild(img);
+   
+ 		img.style.bottom = String(1000-y)+"px";
+
+   		img.style.left = String(x-23)+"px";
+   		img.style.position='absolute';
+   		img.style.zIndex="3";
+  		 i = i + 1;
+  		 img.id = "a" + i;
+  		 console.log("a"+i);
+		j=j+1;
+
+}}  else if(j==2 && j==4 && j==6){
+
+		click.onclick = function(event){
+		var x = event.clientX;
+		var y = event.clientY;
+		const img1= document.createElement('img');
+	
+		img1.src = "../static/images/내일이 프로필.svg";
+		document.body.appendChild(img1);
+		
+		img1.style.bottom = String(1000-y)+"px";
+		
+		img1.style.left = String(x-23)+"px";
+		img1.style.position='absolute';
+		img1.style.zIndex="3";
+		i = i + 1;
+		img1.id = "a" + i;
+		console.log("a"+i);
+		j=j+1;
+
+ }
+}}
+
+
+
+
+
+
+
+
+// // if(i>=5){
+// 	let firstImage = document.getElementById("a1");
+// 	let secondImage = document.getElementById("a2");
+// 	firstImage.addEventListener("click", () => {
+// 		firstImage.remove();
+// 	});
+// 	secondImage.addEventListener("click", () => {
+// 		secondImage.remove();
+// 	});
+// 	console.log("삭제됐습니다");
 // }
+
+
+
+
+
 // if(i==5){
 // 	for(j=1; j<6; j++){
 // 		let selectImage=document.getElementById('"a"+j');
