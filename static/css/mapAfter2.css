@@ -58,7 +58,7 @@ body{
 
 .fourth-line .map .map-img{
     width : 52.5vh;
-    height : 40vh;
+    height : 30vh;
     z-index : 1;
     position : absolute;
 
@@ -100,6 +100,14 @@ body{
     padding-top:1vh;
     border-radius: 1vh;
     padding-left : 1vh;
+    cursor: move;
+}
+.blank.over {
+    border: 3px dotted #99E599;
+}
+  
+[draggable] {
+    user-select: none;
 }
 .total{
     display:flex;
@@ -130,4 +138,21 @@ body{
     height : 5vh;
     margin-left : 3.5vh;
     width : 20vh;
+}
+.left{
+    padding-left : 1vh;
+}
+.left .png{
+    position : absolute;
+}
+.left .png-1{
+    position : relative;
+    z-index : 1;
+    top: 7vh;
+}
+
+.element4{
+    padding-top:0.2vh;
+    opacity : 40%;
+    font-size : 13px;
 }

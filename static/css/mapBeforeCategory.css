@@ -7,7 +7,7 @@ body{
 
 .page{
     background-color : white;
-    height : 100vh;
+    height : 200vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,11 +81,12 @@ body{
     border-top : 1px solid #333;
     width : 100%;
     border-bottom : 1px solid #333;
-    height : 14vh;
+    height : 15vh;
 }
 
 .info-left{
     display:flex;
+    flex-basis : 70%;
     flex-direction : column;
 }
 .info-first{
@@ -189,3 +190,11 @@ body{
     font-size : 2.5vh;    
 }
 
+.info-right{
+    margin-top : 0.3vh;
+    
+}
+.info-right img{
+    width: 103px;
+    height : 103px;
+}
