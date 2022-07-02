@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="../static/css/map_before.css">
 </head>
 
-<body>
+<body class="pin" onclick="pinClick()">
+     <!-- class="body1" onclick="dblclick()" -->
     <div class = "page">
         
         <div class="box">
@@ -21,18 +22,18 @@
         </div>
     
         <div class="button">
-            <button><img src="../static/images/맛집.svg">맛집</button>
-            <button><img src="../static/images/카페.svg">카페</button>       
-            <button><img src="../static/images/문화공간.svg">문화공간</button>       
-                <button><img src="../static/images/힐링.svg">힐링</button>       
-                <button><img src="../static/images/액티비티.svg">액티비티</button>       
+            <button id="button" onclick="order"><img src="../static/images/맛집.svg">맛집</button>
+            <button id="button" onclick="order"><img src="../static/images/카페.svg">카페</button>       
+            <button id="button" onclick="order"><img src="../static/images/문화공간.svg">문화공간</button>       
+            <button id="button" onclick="order"><img src="../static/images/힐링.svg">힐링</button>       
+            <button id="button" onclick="order"><img src="../static/images/액티비티.svg">액티비티</button>       
         </div>
-        <div class="map">
+        <div class='map'>
              <img src = "../static/images/풀지도.svg" id="map">           
         </div>     
         <div class="button2">
-            <button class="bu">선택</button>
-            <button class="bu">완료</button>
+            <button class="bu" id="button"  onclick="select">선택</button>
+            <button class="bu" id="button"  onclick="select">완료</button>
 
         </div>
         
@@ -48,9 +49,9 @@
             </div>
         </div>
     </div>
-    
-        
+   
     </div>
     <script src="../static/js/maptest.js"></script>
+
 </body>
 </html>
