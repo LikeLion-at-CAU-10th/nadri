@@ -102,10 +102,14 @@ body{
 
 .bu{
    background-color: #000000;
+   width: 5vh;
    color: white;
    border-radius: 6px;
    font-family: 'Nanum Gothic';
    transition-duration: 0.3s;
+}
+.bu A{
+    color: white;
 }
 
 .bu:active{
@@ -113,6 +117,16 @@ body{
     margin-top: 5px;
 }
 
+.button2{
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+    z-index: 2;
+    top: 610px;
+    margin-left: 400px;
+}
 
 .bottom{
     background-color: white;
@@ -122,7 +136,7 @@ body{
     justify-content: space-evenly;
    
     position: relative;
-    top:62vh;
+    top:57vh;
     z-index: 1;
   
 
@@ -145,13 +159,32 @@ body{
     padding-top: 5px;
 }
 
-.button2{
-    height: 55px;
-    display: flex;
-    flex-direction: column;
+
+
+.online{
     position: relative;
-    justify-content: space-between;
     z-index: 2;
-    top: 610px;
-    margin-left: 400px;
+    size:30px;
+    width: 10vh;
+    
+
+    top: 565px; 
+    margin-left: 300px;
+
+     /* margin-left:380px;
+    bottom: 50px; */
+
+}
+
+.today{
+  width:4vh;
+  box-shadow: 3px 3px 10px gray;
+  border-radius: 60px;
+}
+
+.tomorrow{
+  width:4vh;
+  box-shadow: 3px 3px 10px gray;
+  border-radius: 60px;
+}
 }
