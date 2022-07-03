@@ -14,8 +14,7 @@ let click = document.querySelector('.map');
 let i = 0;
 let j=0;
 
-for(j=1; j<7; j++){
-	if(j==1 && j==3 && j==5){
+
 		click.onclick = function(event){
   		var x = event.clientX;
    		var y = event.clientY;
@@ -35,29 +34,10 @@ for(j=1; j<7; j++){
   		 img.id = "a" + i;
   		 console.log("a"+i);
 		j=j+1;
+ 
 
-}}  else if(j==2 && j==4 && j==6){
-
-		click.onclick = function(event){
-		var x = event.clientX;
-		var y = event.clientY;
-		const img1= document.createElement('img');
-	
-		img1.src = "../static/images/내일이 프로필.svg";
-		document.body.appendChild(img1);
-		
-		img1.style.bottom = String(1000-y)+"px";
-		
-		img1.style.left = String(x-23)+"px";
-		img1.style.position='absolute';
-		img1.style.zIndex="3";
-		i = i + 1;
-		img1.id = "a" + i;
-		console.log("a"+i);
-		j=j+1;
 
  }
-}}
 
 
 

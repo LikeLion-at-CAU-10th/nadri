@@ -1,30 +1,11 @@
 let i = 0;
-let buttons = document.querySelectorAll('button');
-let input=document.getElementById('search')
-
-// buttons.onclick()=function(event){
-//   if(event.button==0){
-//     return false;
-//   }
-// }
-
-// order=buttons.addEventListener('order', function(event){
-//   if (event.button == 0){
-//     return false;
-//   }
-// });
-
-// function order(){
-//   buttons.addEventListner('click', function(){
-//     buttons.removeEventListner('click',Click);
-    
-//   })};
+let click=document.querySelector('.map');
 
 
-document.onmousedown = function Click(event) {
-  
+click.onmousedown = function Click(event) {
     if (event.button == 0) {
     // 마우스 왼쪽 클릭
+
       document.title = event.clientX + ", " + event.clientY
       let img = document.createElement("img");
       img.src = "../static/images/오늘이 핀.svg"; 
@@ -106,9 +87,10 @@ Alt.onclick = function(event) {
 };
     
 const db1=document.querySelector('#Alt');
-  // 더블클릭
-db1.addEventListener('dblclick', function(){
-      if (event.button == 0){
+  // 컨트롤키+왼쪽마우스
+db1.addEventListener('click', function(){
+    if (event.button == 0 && event.ctrlKey){
+      // if (event.button == 0){
         document.title = event.clientX + ", " + event.clientY;
         let img = document.createElement("img");
         img.src = "../static/images/선택후내일이.svg"; 
@@ -132,14 +114,9 @@ db1.addEventListener('dblclick', function(){
 
 
 // 버튼 클릭시 핀 안뜨기.
-function order(event)  {
-  const buttons = document.querySelector('button');
-  document.onmousedow='null';
-  if(event.stopPropagation){                
-      event.stopPropagation();                
-      }
-    };
-        
+
+ 
+
 
 
 
