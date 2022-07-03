@@ -1,0 +1,68 @@
+body{
+    margin-top : 14px;
+    margin-left : 80vh;
+    margin-right : 80vh;
+    background-color : #333;
+}
+.page{
+    background-color: white;
+    height : 100vh;
+}
+
+.undo{
+    margin-left : 16px;
+}
+.undo img{
+    width : 15px;
+    height : 15px;
+    margin-top : 3vh;
+    
+}
+.content{
+    display:flex;
+    flex-direction : column;
+    padding-left : 5vh;
+    padding-top : 3vh;
+}
+.first{
+    font-size : 18px;
+    font-weight : bold;
+
+}
+.second{
+    margin-top : 1vh;
+    font-size : 10px;
+    opacity : 50%;
+    margin-bottom : 2vh;
+}
+.third{
+    display: flex;
+    justify-content: space-evenly;
+    font-size : 10px;
+    border-bottom : 1px solid #333;
+    padding-bottom : 5vh;
+}
+.kakao{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEE500;
+    width : 18vh;
+    height : 4vh;
+    text-align: center;
+    border-radius: 2vh;
+}
+.invite{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #99E599;
+    width : 18vh;
+    text-align: center;
+    border-radius: 2vh;
+    height : 4vh;
+}
+img{
+    width : 14px;
+    height : 14px;
+}
