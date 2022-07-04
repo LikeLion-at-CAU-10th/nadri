@@ -62,7 +62,60 @@ body{
     border-radius: 2vh;
     height : 4vh;
 }
-img{
+.invite img{
     width : 14px;
     height : 14px;
 }
+.fourth {
+    display : flex;
+    font-size : 12px;
+    font-weight : bold;
+    margin-top : 3vh;
+    margin-left : 5vh;
+}
+.fourth img{
+    width : 35px;
+    height : 35px;
+}
+.info{
+    display:flex;
+    align-items: center;
+    padding-left : 3vh;
+}
+
+
+.bottom{
+    background-color: white;
+   
+    display: flex;
+    justify-content: space-evenly;
+    margin-top : 57vh;
+    
+
+}
+
+.bottom-1{
+    background-color: white;
+   
+    display: flex;
+    justify-content: space-evenly;
+    margin-top : 62vh;
+    
+
+}
+
+
+.dod{
+    margin-right: 5vh;
+    padding-top:5px;
+}
+
+.man{
+    margin-left: 5vh;
+    padding-top: 5px;
+}
+
+.home{
+    padding-top: 5px;
+}
+
