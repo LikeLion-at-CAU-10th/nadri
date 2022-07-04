@@ -98,7 +98,13 @@ body{
 .info-name{
     font-weight :bold;
     font-size : 2vh;
+    color: black;
 }
+.info-name a{
+    text-decoration: none; /* 링크의 밑줄 제거 */
+    color: inherit; 
+ }
+
 .info-kind{
     font-size : 1vh;
     padding-left : 0.5vh;
