@@ -1,18 +1,4 @@
-body{
-    margin-left : 80vh;
-    margin-right : 80vh;
-    margin-top : 2vh;
-    background-color : gray;
-}
-
-.page{
-    background-color : white;
-    width: 45vh;
-    height : 84vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+@import "background.css";
 
 .container-1{
     width: 40vh;

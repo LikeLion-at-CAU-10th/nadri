@@ -1,34 +1,5 @@
 @import "background.css";
 
-.page{
-    /* Login */
-    position: relative;
-    height: 812px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    }
-
-/* 상단바 이미지 크기 */
-.top-box img{
-    width:9vh;
-    height:24px;
-    position: relative;
-    right: -10px;
-}
-
-/* 시계크기 */
-.time_box{
-    margin-right: 35vh;
-}
-   
-.clock span { color: black; }
-
-/* 시계텍스트크기 */
-.txt_lg { 
-    font-size: 12px;
-    font-weight:900;
- }
-
 
 .wrapper{
     margin: 0 20px;
@@ -44,7 +15,6 @@
     font-style: normal;
     font-weight: 40;
     font-size: 30px;
-    line-height: 127px;
   
 /* identical to box height */
     display: flex;
@@ -80,7 +50,7 @@
     color: white;
     display: flex;
     justify-content: center;
-    width: 50vh;
+    width: 30vh;
     padding: 7px;
     border: none;
     border-radius: 5px;
@@ -126,6 +96,7 @@
     flex-direction: column; 
     align-items: center;
     padding-top: 150px;
+    width : 40vh;
 }    
 
 

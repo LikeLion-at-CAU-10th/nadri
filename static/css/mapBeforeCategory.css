@@ -1,20 +1,7 @@
-body{
-    margin-left : 80vh;
-    margin-right : 80vh;
-    margin-top : 2vh;
-    background-color : gray;
-}
-
-.page{
-    background-color : white;
-    height : 200vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+@import "background.css";
 
 .container-1{
-    width: 50vh;
+    width: 40vh;
     vertical-align: middle;
     white-space: nowrap;
     position: relative;
