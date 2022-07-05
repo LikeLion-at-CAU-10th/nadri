@@ -1,13 +1,5 @@
-body{
-    margin-top : 14px;
-    margin-left : 80vh;
-    margin-right : 80vh;
-    background-color : #333;
-}
-.page{
-    background-color: white;
-    height : 100vh;
-}
+@import "background.css";
+
 
 .undo{
     margin-left : 16px;
@@ -19,12 +11,15 @@ body{
     
 }
 .sign-up{
-    font-size : 45px;
-    margin-left : 15vh;
-    margin-right : 15vh;
+    margin-top : 10vh;
+    font-size : 4vh;
+    font-weight : bold;
+    display : flex;
+    justify-content: center;
     color : #99E599;
-    Font:"Nats";
+    
     padding-bottom:0px;
+    margin-bottom : 3vh;
 }
 .info{
     margin-top : 20px;
@@ -32,16 +27,17 @@ body{
 }
 .info-id{
     font-size : 15px;
-    font : "Nats";
+    
 }
 input{
-    margin-left : 36px;
-    width : 300px;
+    margin-left : 3vh;
+    width : 40vh;
     height : 50px;
     border-bottom : solid 2px #99E599;
     border-top: none;
     border-left:none;
     border-right:none;
+    margin-right : 4vh;
     
 }
 form p{
@@ -56,16 +52,22 @@ hr{
     border : 0.5px solid;
 }
 .box{
+    margin-top : 5vh;
     box-sizing : border-box;
-    
-    margin-top:25px;
-    margin-left : 60px;
-    margin-right : 60px;
-    width:35vh;
-    height : 60px;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    height : 5vh;
+    width : 30vh;
     text-align : center;
     background-color:#99E599;
+    border : none;
     color : white;
     border-radius:6px;
-    padding-top: 20px;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
 }

@@ -1,13 +1,5 @@
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #333;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 14px;
-    margin-left: 80vh;
-    margin-right: 80vh;
-}
+@import "background.css";
+
 .page{
     /* Login */
     position: relative;
