@@ -1,7 +1,7 @@
 @import "background.css";
 
 .container-1{
-    width: 40vh;
+    width: 48vh;
     vertical-align: middle;
     white-space: nowrap;
     position: relative;
@@ -15,7 +15,7 @@
     box-sizing: border-box;
     background: white;
     border: 2px solid whitesmoke;
-    width:50vh;
+    width:48vh;
     height:52px;
     padding-top: 10px;
     position: relative;
@@ -67,7 +67,7 @@
     border-top : 1px solid #333;
     width : 100%;
     border-bottom : 1px solid #333;
-    height : 15vh;
+    height : 12vh;
 }
 
 .info-left{
@@ -184,7 +184,7 @@
 
 .info-right{
     margin-top : 0.3vh;
-    
+    margin-left : 2vh;
 }
 .info-right img{
     width: 103px;
