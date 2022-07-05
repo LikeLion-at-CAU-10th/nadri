@@ -2,7 +2,6 @@
 
 
 .wrapper{
-    margin: 0 20px;
     display: flex;
     flex-direction: row;
 }
@@ -28,13 +27,11 @@
 .middle-loginbox a{
     text-decoration: none;
     color: grey;
-    margin: 0 10px;
 }
 
 .division-line a{
     text-decoration: none;
     color: grey;
-    margin: 0 10px;
 }
 
 .middle-loginbox{
@@ -42,7 +39,6 @@
     align-items: center;
     justify-content: center;
     font-size: 15px;
-    margin: 0.8rem 0;
 }
 
 #login{
@@ -51,7 +47,6 @@
     display: flex;
     justify-content: center;
     width: 30vh;
-    padding: 7px;
     border: none;
     border-radius: 5px;
     height: 60px;
@@ -69,7 +64,6 @@
 
 .submit-btn{
     box-sizing: border-box;
-    position: absolute;
     background: #99E599;
     border: 2px solid #99E599;
     border-radius: 6px;
@@ -77,17 +71,16 @@
     height:52px;
 
 }
-
+form{
+    padding-left : 2.5vh;
+}
 .text-field{
     box-sizing: border-box;
     background: #FFFFFF;
     border: 2px solid #99E599;
     width:43vh;
     height:52px;
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
+   
     vertical-align: 26px
 }
 
@@ -96,7 +89,7 @@
     flex-direction: column; 
     align-items: center;
     padding-top: 150px;
-    width : 40vh;
+    
 }    
 
 
