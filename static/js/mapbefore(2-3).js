@@ -74,8 +74,8 @@ Alt.onclick = function(event) {
     img.style.left = event.clientX + "px";
     img.style.top = event.clientY + "px";
     img.style.position = "absolute"
-    img.style.width=4+"vh";
-    img.style.length=5+"px";
+    img.style.width=6+"vh";
+    img.style.length=6+"px";
 
 
     document.body.appendChild(img);
@@ -102,8 +102,8 @@ db1.addEventListener('click', function(){
         img.style.left = event.clientX + "px";
         img.style.top = event.clientY + "px";
         img.style.position = "absolute";
-        img.style.width=4+"vh";
-        img.style.length=5+"px";
+        img.style.width=6+"vh";
+        img.style.length=6+"px";
     
         document.body.appendChild(img);
         i = i + 1;
