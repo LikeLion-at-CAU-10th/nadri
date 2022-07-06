@@ -31,7 +31,8 @@
     box-sizing: border-box;
     background: white;
     border: 2px solid whitesmoke;
-    width:48vh;
+    margin-left : 2vh;
+    width:44vh;
     height:52px;
     padding-top: 10px;
     position: relative;
@@ -57,8 +58,10 @@
   }
 
 #s{
-    margin-left: 330px;
+    margin-left: 40vh;
     transition-duration: 0.3s;
+    padding-top : 0.5vh;
+    width : 2.5vh;
 }
 #s:active{
     margin-right: 5px;
@@ -66,9 +69,12 @@
     box-shadow: none;
 }
 
-
+#b{
+    margin-top : 1vh;
+    margin-left : 2vh;
+}
 .button{
-    width: 44vh;
+    width: 48vh;
     padding-top: 8px;
     display: flex;
     flex-direction: row;
@@ -96,7 +102,7 @@
 .map{
     position: absolute;
     z-index: 0;
-    width: 44vh;
+    width: 40vh;
     /* display: flex;
     justify-content: center; */
 }
@@ -125,19 +131,21 @@
     position: relative;
     justify-content: space-between;
     z-index: 2;
-    top: 610px;
+    top: 52vh;
+    right : 2vh;    
     margin-left: 400px;
 }
 
 .bottom{
     background-color: white;
-    width:45vh;
-    height: 35px;
+    width:48vh;
+    padding-top:0.5vh;
+    height: 6vh;
     display: flex;
     justify-content: space-evenly;
    
     position: relative;
-    top:57vh;
+    top: 54vh;
     z-index: 1;
   
 
@@ -169,10 +177,11 @@
     width: 10vh;
     
 
-    /* top: 565px; 
-    margin-left: 300px; */
+    top: 2vh;
+    /* right : 1vh;    */
+    /* margin-left: ; */
 
-     margin-left:380px;
+    margin-left:340px;
     bottom: 50px;
 
 }
@@ -202,3 +211,8 @@
 
 }
 
+
+#map{
+    /* overflow: hidden; */
+    width : 48vh;
+}
