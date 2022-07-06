@@ -47,6 +47,7 @@
 #s{
     margin-left: 40vh;
     transition-duration: 0.3s;
+    font-size : 5vh;
 }
 #s:active{
     margin-right: 5px;

@@ -1,4 +1,5 @@
-body{
+@import "background.css";
+/* body{
     margin-left : 80vh;
     margin-right : 80vh;
     margin-top : 2vh;
@@ -12,10 +13,10 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 
 .container-1{
-    width: 40vh;
+    width: 48vh;
     vertical-align: middle;
     white-space: nowrap;
     position: relative;
@@ -30,7 +31,7 @@ body{
     box-sizing: border-box;
     background: white;
     border: 2px solid whitesmoke;
-    width:40vh;
+    width:48vh;
     height:52px;
     padding-top: 10px;
     position: relative;
