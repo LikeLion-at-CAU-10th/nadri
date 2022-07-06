@@ -1,21 +1,6 @@
-body{
-    margin-left : 80vh;
-    margin-right : 80vh;
-    margin-top : 2vh;
-    background-color : gray;
-}
-
-.page{
-    background-color : white;
-    width: 45vh;
-    height : 84vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
+@import "background.css";
 .container-1{
-    width: 40vh;
+    width: 48vh;
     vertical-align: middle;
     white-space: nowrap;
     position: relative;
@@ -30,7 +15,8 @@ body{
     box-sizing: border-box;
     background: white;
     border: 2px solid whitesmoke;
-    width:40vh;
+    margin-left : 2vh;
+    width:44vh;
     height:52px;
     padding-top: 10px;
     position: relative;
@@ -45,19 +31,23 @@ body{
   .container-1 input#search:-ms-input-placeholder {  
     color: #65737e;  
  }
-
+#b{
+    margin-top : 1.2vh;   
+    margin-left :2vh;
+}
  .container-1 .icon{
     position: absolute;
     top: 50%;
     margin-left: 17px;
-    margin-top: -8px;
+    margin-top: -13px;
     z-index: 1;
     color: #4f5b66;
   }
 
 #s{
-    margin-left: 330px;
+    margin-left: 40vh;
     transition-duration: 0.3s;
+    font-size : 5vh;
 }
 #s:active{
     margin-right: 5px;
@@ -67,7 +57,7 @@ body{
 
 
 .button{
-    width: 44vh;
+    width: 48vh;
     padding-top: 8px;
     display: flex;
     flex-direction: row;
@@ -130,13 +120,13 @@ body{
 
 .bottom{
     background-color: white;
-    width:45vh;
-    height: 35px;
+    width:48vh;
+    height: 5vh;
     display: flex;
     justify-content: space-evenly;
    
     position: relative;
-    top:67vh;
+    top:66vh;
     z-index: 1;
   
 

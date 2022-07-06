@@ -1,20 +1,7 @@
-body{
-    margin-left : 80vh;
-    margin-right : 80vh;
-    margin-top : 2vh;
-    background-color : gray;
-}
-
-.page{
-    background-color : white;
-    height : 200vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+@import "background.css";
 
 .container-1{
-    width: 50vh;
+    width: 48vh;
     vertical-align: middle;
     white-space: nowrap;
     position: relative;
@@ -22,14 +9,13 @@ body{
     display: flex;
     flex-direction: column;
     padding-top: 10px;
-
 }
 
 .container-1 input#search{
     box-sizing: border-box;
     background: white;
     border: 2px solid whitesmoke;
-    width:50vh;
+    width:48vh;
     height:52px;
     padding-top: 10px;
     position: relative;
@@ -81,7 +67,7 @@ body{
     border-top : 1px solid #333;
     width : 100%;
     border-bottom : 1px solid #333;
-    height : 15vh;
+    height : 12vh;
 }
 
 .info-left{
@@ -198,7 +184,7 @@ body{
 
 .info-right{
     margin-top : 0.3vh;
-    
+    margin-left : 2vh;
 }
 .info-right img{
     width: 103px;
