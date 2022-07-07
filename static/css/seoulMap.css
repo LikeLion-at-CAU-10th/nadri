@@ -13,8 +13,9 @@
 }
 
 .button{
-    margin-left : 2vh;
+    margin-left : 1vh;
     height : 3vh;
     background-color: white;
+    border : none;
     border-radius: 1vh;
 }

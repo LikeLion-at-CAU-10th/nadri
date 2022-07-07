@@ -1,6 +1,6 @@
-/* @import "background.css"; */
+@import "background.css";
 
-body{
+/* body{
     margin-left : 80vh;
     margin-right : 80vh;
     margin-top : 2vh;
@@ -14,7 +14,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 
 .day{
     display: flex;
@@ -30,14 +30,16 @@ body{
     justify-content: space-evenly;
 }
 .May{
-    width:45vh;
-    height: 70vh;
+    margin-left : 3vh;
+    width:40vh;
+    height: 32vh;
     text-align: center;
 }
 
 .june{
-    width:45vh;
-    height: vh;
+    margin-left : 3vh;
+    width:40vh;
+    height: 29vh;
     text-align: center;
 }
 
@@ -131,7 +133,7 @@ body{
 #nu{
     background-color: white;
     border:none;
-    font-size:20px;
+    font-size:1.8vh;
     margin-top: 15px;
     transition-duration: 0.3s;
 }
@@ -167,7 +169,7 @@ body{
 #nu1{
     background-color: white;
     border:none;
-    font-size:20px;
+    font-size:1.8vh;
     color: red;
     margin-top: 15px;
     transition-duration: 0.3s;
@@ -177,7 +179,7 @@ body{
 #nu2{
     background-color: white;
     border:none;
-    font-size:20px;
+    font-size:1.8vh;
     color: blue;  
     margin-top: 10px;
     transition-duration: 0.3s;
@@ -186,7 +188,7 @@ body{
 #nu3{
     background-color: white;
     border:none;
-    font-size:20px;
+    font-size:1.8vh;
     margin-top: 10px;
     transition-duration: 0.3s;
 }
@@ -194,7 +196,7 @@ body{
 #nu4{
     background-color: white;
     border:none;
-    font-size:20px;
+    font-size:1.8vh;
     margin-top: 10px;
     transition-duration: 0.3s;
 }
@@ -209,17 +211,19 @@ body{
 #nu5{
     background-color: white;
     border-radius: 50%;
-    font-size:20px;
+    font-size:1.8vh;
     background-color: #D9D9D9;
     color: red;
     margin-top: 15px;
     transition-duration: 0.3s;
 }
-
 #back{
     margin-right: 37vh;
     margin-top: 2vh;
     width: 3vh;
+    margin-left : 2vh;
+    width : 21px;
+    height : 21px;
 }
 
 
@@ -229,7 +233,7 @@ body{
     background-color: white;
     width:45vh;
     height: 1vh;
-    margin-top:10vh;
+    /* margin-top:10vh; */
     display: flex;
     justify-content: space-evenly;
    flex-direction: row;
@@ -257,7 +261,8 @@ body{
 
 hr{
     background-color: gainsboro;
-    height: 0.5vh;
+    height: 0.2vh;
     color: gainsboro;
-    width: 100%;
-    margin-top:43vh;
+    width: 99%;
+    /* margin-top:43vh; */
+}
