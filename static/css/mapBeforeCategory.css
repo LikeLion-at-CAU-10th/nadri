@@ -1,6 +1,9 @@
 @import "background.css";
-
+.page{
+    height : 140vh;
+}
 .container-1{
+    margin-left : 2vh;
     width: 48vh;
     vertical-align: middle;
     white-space: nowrap;
@@ -15,7 +18,7 @@
     box-sizing: border-box;
     background: white;
     border: 2px solid whitesmoke;
-    width:48vh;
+    width:44vh;
     height:52px;
     padding-top: 10px;
     position: relative;
@@ -49,9 +52,14 @@
     z-index: 1;
     color: #4f5b66;
 }
+#b{
+    margin-top:0.8vh;
+}
 #s{
-    margin-left: 40vh;
+    margin-left: 38vh;
+    margin-top: 1vh;
     transition-duration: 0.3s;
+    width : 2.5vh;
 }
 #s:active{
     margin-right: 5px;
