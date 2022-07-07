@@ -1,0 +1,21 @@
+@import "background.css";
+
+.first-line{
+    margin-top : 3vh;
+    display: flex;
+    
+}
+
+.online{
+    margin-left : 28vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button{
+    margin-left : 1vh;
+    height : 3vh;
+    background-color: white;
+    border : none;
+    border-radius: 1vh;
+}

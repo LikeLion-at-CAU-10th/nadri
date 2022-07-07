@@ -1,13 +1,6 @@
-body{
-    margin-left : 80vh;
-    margin-right : 80vh;
-    margin-top : 2vh;
-    background-color : #333;
-}
-
+@import "background.css";
 .page{
-    background-color : white;
-    height : 113vh;
+    height :100vh;
 }
 .first-line{
     display : flex;
@@ -40,7 +33,7 @@ body{
     border-top : 1px solid #333;
     width : 100%;
     font-weight: bold;
-    font-size : 5vh;
+    font-size : 4vh;
     padding-left : 3vh;
 }
 
@@ -74,21 +67,20 @@ body{
 .fourth-line .map .pin1{
     z-index : 2;
     position: relative;
-    bottom : 1.5vh;
-    left : 9vh;
+    bottom : 0.8vh;
+    left : 8.3vh;
 
 }
 .fourth-line .map .pin2{
     z-index : 2;
     position: relative;
-    left : 40.6vh;
-    top : 3vh;
+    left : 37.5vh;
+    top : 4.2vh;
 }
 .fourth-line .map .pin3{
     z-index : 2;
     position: relative;
-    left : 23vh;
-    bottom : 3vh;
+    left : 21.3vh;
 }
 #canvas{
     position : absolute;
@@ -103,7 +95,7 @@ body{
     border : solid black 1px;
     display : flex;
     margin-bottom : 4.5vh;
-    width : 40vh;
+    width : 38vh;
     height : 6vh;
     padding-top:1vh;
     border-radius: 1vh;
@@ -152,6 +144,7 @@ body{
 }
 .left .png{
     position : absolute;
+    height : 30vh;
 }
 .left .png-1{
     position : relative;
@@ -174,7 +167,12 @@ body{
     
 
 }
-
+canvas{
+    width:43vh;   
+}
+#map1{
+    width : 48vh;
+}
 
 .dod{
     margin-right: 5vh;
