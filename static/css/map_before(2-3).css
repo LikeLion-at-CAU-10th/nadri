@@ -109,7 +109,7 @@
 
 .bu{
    background-color: #000000;
-   width: 5vh;
+   width: 8vh;
    color: white;
    border-radius: 6px;
    font-family: 'Nanum Gothic';
@@ -133,7 +133,7 @@
     z-index: 2;
     top: 52vh;
     right : 2vh;    
-    margin-left: 400px;
+    margin-left: 343px;
 }
 
 .bottom{
@@ -181,7 +181,7 @@
     /* right : 1vh;    */
     /* margin-left: ; */
 
-    margin-left:340px;
+    margin-left:319px;
     bottom: 50px;
 
 }

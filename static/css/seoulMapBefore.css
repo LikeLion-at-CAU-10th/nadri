@@ -5,22 +5,10 @@
 .first-line{
     margin-top : 3vh;
     display: flex;
-    margin-right : 3vh;
+    margin-left : 33.7vh;
 }
 
-.online{
-    margin-left : 25vh;
-    display: flex;
-    justify-content: space-evenly;
-    
-}
 
-.today{
-    width: 40px;
-}
-.tomorrow{
-    width : 40px;
-} 
 
 .button{
     margin-left : 1vh;
