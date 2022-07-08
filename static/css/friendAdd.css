@@ -78,7 +78,10 @@
     align-items: center;
     padding-left : 3vh;
 }
-
+a{
+    text-decoration-line: none;
+    color : black;
+}
 
 .bottom{
     background-color: white;
