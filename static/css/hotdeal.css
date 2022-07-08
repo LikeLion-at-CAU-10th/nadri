@@ -1,4 +1,5 @@
-body{
+@import "background.css";
+/* body{
     margin-left : 80vh;
     margin-right : 80vh;
     margin-top : 2vh;
@@ -12,6 +13,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+} */
+.page{
+    height : 83vh;
 }
 
 .top{
@@ -19,7 +23,8 @@ body{
     display: flex;
     flex-direction: column;
     line-height : 0px;
-    margin-right: 50px; 
+    margin-right: 50px;
+    margin-left : 5vh; 
 }
 
 .bottom{
@@ -28,7 +33,6 @@ body{
     height: 35px;
     display: flex;
     justify-content: space-evenly;
-   
     position: relative;
     top:1vh;
     z-index: 1;
@@ -51,13 +55,13 @@ body{
 }
 
 .images{
-    width: 56vh;
+    width: 42vh;
     height: 62vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-   
+    margin-left :3vh;
   
 }
 
@@ -96,7 +100,10 @@ body{
     padding-top: 10px;
    
 }
-
+hr{
+    width: 47.7vh;
+    margin-left:-3vh;
+}
 #hot{
   color: red;
 }
@@ -117,3 +124,7 @@ body{
     z-index: 0;
 }   
 
+.photo{
+    width : 76px;
+    height : 69px;
+}
